@@ -1,6 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200..700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -28,7 +25,6 @@ body{
 
 h1 , h2, h3, nav {
     font-family: "Oswald", serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
 }
@@ -46,7 +42,10 @@ header{
     text-align: center;
     background-color: #2a9d8f;
     color: white;
-    padding: 20px;
+}
+
+header h1 {
+    padding: 30px;
 }
 
 nav {
@@ -68,6 +67,11 @@ nav a {
     text-align: center;
     color: white;
     font-size: 1rem;;
+}
+
+nav a:hover,
+nav a:active {
+    color: #e9c46a;
 }
 
 main {
