@@ -1,5 +1,3 @@
-// temples.js
-
 // Update the year dynamically in the footer
 const yearSpan = document.getElementById('year');
 const lastModifiedSpan = document.getElementById('lastModified');

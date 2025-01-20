@@ -1,0 +1,27 @@
+/* Responsive */
+@media (min-width: 768px) {
+    body {
+        height: 100vh;
+    }
+
+    nav .hamburger {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        width: auto;
+        background-color: transparent;
+        margin-left: auto;
+    }
+
+    nav ul li a {
+        padding: 0.5rem 1rem;
+    }
+
+    .temples-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
