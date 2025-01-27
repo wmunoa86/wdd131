@@ -44,7 +44,7 @@ header {
 /* Weather Section */
 #weather {
     text-align: center;
-    margin: 2rem;
+    margin: 2rem auto;
     padding: 1rem;
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
@@ -54,8 +54,8 @@ header {
     margin-right: auto;
 }
 
-.weather-icon {
-    font-size: 1.5rem;
+.weather-icon img{
+    width: 80px;
 }
 
 #weather p {
@@ -116,7 +116,7 @@ footer {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr auto;
+        grid-template-rows: auto auto;
         margin: 0;
         padding: 0;
     }
