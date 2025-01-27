@@ -109,19 +109,21 @@ footer {
 
     body {
         height: 100vh;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto 1fr auto;
+        margin: 0;
+        padding: 0;
     }
 
-    header {
-        grid-column: 1/4;
-        grid-row: 1;
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        margin: 0;
+        padding: 0;
     }
 
     #hero {
+        grid-row: 1/ span 2;
         grid-column: 1/4;
-        grid-row: 2/ span 3;
     }
 
     #hero h2 {
@@ -129,7 +131,7 @@ footer {
     }
 
     #data {
-        grid-row: 2;
+        grid-row: 1;
         grid-column: 1/2;
         margin-left: 20px;
         background-color: rgba(255, 255, 255, 0.60);
@@ -137,14 +139,17 @@ footer {
 
     #weather {
         grid-column: 3/4;
-        grid-row: 3;
-        padding: 0.5rem;
+        grid-row: 2;
         margin-right: 20px;
         background-color: rgba(255, 255, 255, 0.60);
     }
+     img {
+        margin: 0;
+        padding: 0;
+     }
 
-    footer {
-        grid-column: 1/4;
-        grid-row: 4;
+    footer{
+        margin: 0;
+        padding: 2em;
     }
 }
