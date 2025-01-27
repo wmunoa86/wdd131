@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Chamber of Commerce Page">
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Chamber of Commerce</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <picture>
+            <source srcset="images/guacamayas_chiapas_large.webp" media="(min-width: 768px)">
+            <img src="images/guacamayas_chiapas.webp" alt="Guacamayas in Chiapas">
+        </picture>
+    </section>
+
+    <section id="data">
+        <h3>Data</h3>
+        <ul>
+            <li><strong>Area:</strong> 587,041 sq km</li>
+            <li><strong>Population:</strong> 27,691,018</li>
+            <li><strong>Capital:</strong> Antananarivo</li>
+            <li><strong>Languages:</strong> Malagasy, French</li>
+            <li><strong>Currency:</strong> Malagasy Ariary</li>
+            <li><strong>Time Zone:</strong> UTC+3</li>
+            <li><strong>Calling Code:</strong> +261</li>
+            <li><strong>Internet TLD:</strong> .mg</li>
+        </ul>
+    </section>
+
+    <!-- Weather Section -->
+    <section id="weather">
+        <h3>Weather</h3>
+        <span class="weather-icon">⛅</span>
+        <p>Temperature: <span id="temperature">10 °C</span></p>
+        <p>Wind Speed: <span id="wind-speed">5 km/h</span></p>
+        <p>Wind Chill: <span id="wind-chill">N/A</span></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="current-year"></span> Walter Muñoa Sosa - Chiapas</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+    </footer>
+</body>
+
+</html>
